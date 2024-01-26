@@ -16,7 +16,7 @@ const passwordValidator = require('password-validator');
 const generateApiKey = require('generate-api-key').default;
 const containsEmoji = require('contains-emoji');
 const Recaptcha = require('express-recaptcha').RecaptchaV2;
-const recaptcha = new Recaptcha(recaptcha_key_1, recaptcha_key_2);
+const recaptcha = new Recaptcha("6LcLcl0pAAAAAKg6b-OlIXYF7VNNgL7bH_zDR7k1", "6LcLcl0pAAAAADWfVX4cIT8B92fucxFPJ95ARzmR");
 
 //_______________________ ┏ Function ┓ _______________________\\
 
